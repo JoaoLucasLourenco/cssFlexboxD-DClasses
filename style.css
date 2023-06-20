@@ -1,5 +1,17 @@
-header{
-    text-align: center;
+*{
     font-family: sans-serif;
+}
+body{
+    background-color: #495E78;
+    margin: 0;
     width: 100%;
+    height: 100%;
+}
+.header{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    color:#003B4A;
+    background-color: #9FAFC4;
 }
