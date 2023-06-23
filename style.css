@@ -1,17 +1,132 @@
 *{
     font-family: sans-serif;
+    transition-duration: 0.6s;
 }
 body{
-    background-color: #495E78;
+    background-color: #cd7f20;
     margin: 0;
-    width: 100%;
-    height: 100%;
 }
-.header{
-    width: 90%;
-    margin: 0 auto;
+/* Header */
+header{
     text-align: center;
-    font-size: 2rem;
-    color:#003B4A;
-    background-color: #9FAFC4;
+    background-color: #9f5715;
+    padding: 1px;
+    border-radius: 0 0 10px 10px;
+    color: #faa72b;
+    box-shadow: 0px 5px 20px 7px #340100;
+    user-select: none;
 }
+header span{
+    background-color: #faa72b;
+    padding: 0 7px;
+    color: #340100;
+    animation: rodando;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+/* content */
+.content{
+    display: flex;
+    margin: 50px;
+    justify-content:center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.content::after{
+    width: 300px;
+}
+.card{
+    min-height: 700px;
+    width: 350px;
+    background-color: #9f5715;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 20px #340100;
+}
+.card img{
+    width: 250px;
+    height: 320px;
+    border-radius: 20px 20px 0 0;
+    background-size: cover;
+    margin: 10px;
+    background-color: #cd7f20;
+}
+.card h2{
+    margin: 0;
+}
+.NomeClasse{
+    background-color: #faa72b;
+    padding: 10px 20px;
+    color: #340100;
+    border-radius: 7px;
+    user-select: none;
+    animation: nome;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+.card p{
+    color:#f9ebd8;
+    width: 300px;
+}
+.saiba-mais{
+    background-color: #faa72b;
+    padding: 10px 20px;
+    color: #340100;
+    margin: 10px;
+    border-radius: 7px;
+    user-select: none;
+    
+}
+.saiba-mais:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px #340100;
+
+}
+.mais{
+    display: none;
+}
+@keyframes rodando {
+    
+    0%{
+        text-shadow:15px 15px 30px #f9ebd8
+    }
+    25%{
+        text-shadow:15px -15px 30px #f9ebd8
+    }
+    50%{
+        text-shadow:-15px -15px 30px #f9ebd8
+    }
+    75%{
+        text-shadow:-15px 15px 30px #f9ebd8
+    }
+    100%{
+        text-shadow:15px 15px 30px #f9ebd8
+    }
+}
+@keyframes nome {
+    
+    0%{
+        box-shadow:5px 5px 30px #faa72b
+    }
+    25%{
+        box-shadow:5px -5px 30px #faa72b
+    }
+    50%{
+        box-shadow:-5px -5px 30px #faa72b
+    }
+    75%{
+        box-shadow:-5px 5px 30px #faa72b
+    }
+    100%{
+        box-shadow:5px 5px 30px #faa72b
+    }
+}
+
