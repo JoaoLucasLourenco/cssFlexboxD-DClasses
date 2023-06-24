@@ -114,19 +114,19 @@ header span{
 @keyframes nome {
     
     0%{
-        box-shadow:5px 5px 30px #faa72b
+        box-shadow:5px 5px 30px #cd7f20
     }
     25%{
-        box-shadow:5px -5px 30px #faa72b
+        box-shadow:5px -5px 30px #cd7f20
     }
     50%{
-        box-shadow:-5px -5px 30px #faa72b
+        box-shadow:-5px -5px 30px #cd7f20
     }
     75%{
-        box-shadow:-5px 5px 30px #faa72b
+        box-shadow:-5px 5px 30px #cd7f20
     }
     100%{
-        box-shadow:5px 5px 30px #faa72b
+        box-shadow:5px 5px 30px #cd7f20
     }
 }
 
