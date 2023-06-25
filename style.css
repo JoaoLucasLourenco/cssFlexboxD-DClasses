@@ -6,6 +6,10 @@ body{
     background-color: #cd7f20;
     margin: 0;
 }
+::selection{
+    background-color: #340100;
+    color: #faa72b;
+}
 /* Header */
 header{
     text-align: center;
@@ -33,9 +37,6 @@ header span{
     align-items: start;
     flex-wrap: wrap;
     gap: 30px;
-}
-.content::after{
-    width: 300px;
 }
 .card{
     min-height: 700px;
@@ -92,6 +93,19 @@ header span{
 }
 .mais{
     display: none;
+    user-select: none;
+}
+.mais table{
+    background-color: #faa72b;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.mais td{
+    background-color: #340100;
+    color: #faa72b;
+    border-radius: 10px;
+    padding: 5px;
 }
 @keyframes rodando {
     

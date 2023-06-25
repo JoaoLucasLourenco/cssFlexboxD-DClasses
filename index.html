@@ -5,31 +5,337 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Mangá Center</title>
+    <title>D&D Classes</title>
 </head>
 <body>
     <header><h1>Classes <span>D&D</span></h1></header>
     <div class="content">
+        <div class="card">
+            <img src="Barbarian.jpg" alt="">
+            <span class="NomeClasse">
+                <h2>Bárbaro</h2>
+            </span>
+            <p>
+                Um guerreiro feroz e resistente, capaz de entrar em um estado de fúria e desencadear ataques poderosos. Eles são especialistas em combate corpo a corpo e possuem alta resistência.
+            </p>
+            <button class="saiba-mais" onclick="flex('mais1','mostra1')">
+                <h2 id="mostra1">Mostrar Mais ></h2>
+            </button>
+            <div id="mais1" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D12</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Força</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Força & Constituição</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Armaduras leves e médias,
+                        escudos, armas simples e marciais</td></tr>
+                </table>
+            </div>
+        </div>
+        <div class="card">
+            <img src="bardo.jpg" alt="">
+            <span class="NomeClasse">
+                <h2>Bardo</h2>
+            </span>
+            <p>
+                Músicos e artistas versáteis, capazes de usar sua música e habilidades de atuação para inspirar aliados, lançar magias e até mesmo enganar inimigos. São adeptos de várias habilidades e magias.
+            </p>
+            <button class="saiba-mais" onclick="flex('mais2','mostra2')">
+                <h2 id="mostra2">Mostrar Mais ></h2>
+            </button>
+            <div id="mais2" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D8</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Carisma</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Destreza &
+                        Carisma</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Armaduras leves, armas simples,
+                        bestas de mão, espadas longas,
+                        rapieiras, espadas curtas</td></tr>
+                </table>
+            </div>
+        </div>
+        <div class="card">
+            <img src="bruxo.jpg" alt="">
+            <span class="NomeClasse">
+                <h2>Bruxo</h2>
+            </span>
+            <p>
+                Mestres do pacto sobrenatural, os bruxos fazem acordos com entidades extraplanares para obter seus poderes. Eles lançam magias e possuem habilidades únicas, dependendo do seu pacto.
+            </p>
+            <button class="saiba-mais" onclick="flex('mais3','mostra3')">
+                <h2 id="mostra3">Mostrar Mais ></h2>
+            </button>
+            <div id="mais3" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D8</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Carisma</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Sabedoria &
+                        Carisma</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Armaduras leves, armas simples</td></tr>
+                </table>
+            </div>
+        </div>
+        <div class="card">
+            <img src="clerigo.jpg" alt="">
+            <span class="NomeClasse">
+                <h2>Clérigo</h2>
+            </span>
+            <p>
+                Servos devotos de uma divindade, os clérigos são capazes de lançar magias divinas e possuem habilidades de cura. Eles podem seguir diferentes domínios divinos, como a vida, a guerra ou a natureza.
+            </p>
+            <button class="saiba-mais" onclick="flex('mais4','mostra4')">
+                <h2 id="mostra4">Mostrar Mais ></h2>
+            </button>
+            <div id="mais4" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D8</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Sabedoria</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Sabedoria &
+                        Carisma</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Armaduras leves e médias,
+                        escudos, armas simples</td></tr>
+                </table>
+            </div>
+        </div>
+        <div class="card">
+            <img src="druida.jpg" alt="">
+            <span class="NomeClasse">
+                <h2>Druida</h2>
+            </span>
+            <p>
+                Protetores da natureza, os druidas têm uma forte conexão com o mundo natural e podem lançar magias druídicas. Eles podem se transformar em animais e possuem habilidades relacionadas à natureza.
+            </p>
+            <button class="saiba-mais" onclick="flex('mais5','mostra5')">
+                <h2 id="mostra5">Mostrar Mais ></h2>
+            </button>
+            <div id="mais5" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D8</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Sabedoria</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Inteligência & Sabedoria</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Armaduras leves e médias (nãometálicas), escudos (nãometálicos), clavas, adagas,
+                        dardos, azagaias, maças, bordões,
+                        cimitarras, foices, fundas e lanças</td></tr>
+                </table>
+            </div>
+        </div>
+        <div class="card">
+            <img src="feiticeiro.jpg" alt="">
+            <span class="NomeClasse">
+                <h2>Feiticeiro</h2>
+            </span>
+            <p>
+                Indivíduos com sangue mágico, os feiticeiros são capazes de lançar magias inatas. Eles têm uma fonte interna de poder mágico e podem usar pontos de feitiçaria para modificar suas magias.
+            </p>
+            <button class="saiba-mais" onclick="flex('mais6','mostra6')">
+                <h2 id="mostra6">Mostrar Mais ></h2>
+            </button>
+            <div id="mais6" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D6</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Carisma</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Constituição &
+                        Carisma</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Adagas, dardos, fundas, bordões,
+                        bestas leves</td></tr>
+                </table>
+            </div>
+        </div>
+        <div class="card">
+            <img src="guerreiro.jpg" alt="">
+            <span class="NomeClasse">
+                <h2>Guerreiro</h2>
+            </span>
+            <p>
+                Mestres das armas e do combate, os guerreiros são especialistas em batalha. Eles têm acesso a uma ampla variedade de armas e armaduras e possuem habilidades que os tornam especialistas em determinados estilos de combate.
+            </p>
+            <button class="saiba-mais" onclick="flex('mais7','mostra7')">
+                <h2 id="mostra7">Mostrar Mais ></h2>
+            </button>
+            <div id="mais7" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D10</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Força ou
+                        Destreza</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Força &
+                        Constituição</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Todas as armaduras, armas
+                        simples e marciais</td></tr>
+                </table>
+            </div>
+        </div>
         <div class="card">
             <img src="luladrao.jpg" alt="">
             <span class="NomeClasse">
                 <h2>Ladino</h2>
             </span>
             <p>
-                Na jogabilidade de Dungeons & Dragons (D&D), a classe Ladino (ou Rogue, em inglês) é conhecida por sua habilidade em se infiltrar, desarmar armadilhas, roubar itens valiosos e realizar ataques furtivos. Os ladinos são mestres da destreza, agilidade e subterfúgio.
+                Especialistas em furtividade, trapaça e habilidades não ortodoxas, os ladinos são mestres do subterfúgio. Eles são hábeis em ataques furtivos, desarmar armadilhas e roubar itens valiosos.
             </p>
-            <button class="saiba-mais" onclick="flex('mais1','mostra1')">
-                <h2 id="mostra1">Mostrar Mais ></h2>
+            <button class="saiba-mais" onclick="flex('mais8','mostra8')">
+                <h2 id="mostra8">Mostrar Mais ></h2>
             </button>
-            <p id="mais1" class="mais">
-                Os ladinos têm uma ampla gama de habilidades que os tornam especialistas em situações furtivas e perigosas. Eles possuem um talento natural para se mover silenciosamente, desaparecer nas sombras e evitar armadilhas. Essas habilidades são aprimoradas à medida que o ladino ganha experiência e avança de nível.
-                <br><br>
-                Uma das características mais marcantes dos ladinos é a capacidade de realizar ataques furtivos. Eles podem aproveitar as fraquezas de seus oponentes e desferir golpes precisos e mortais, causando dano adicional quando atacam de forma sorrateira ou em momentos de vantagem.
-                <br><br>
-                Além disso, os ladinos têm acesso a uma ampla variedade de perícias e talentos que lhes permitem se destacar em áreas como percepção, enganação, furtividade, acrobacias e muito mais. Eles também podem escolher especializações chamadas de "arquétipos", que oferecem habilidades únicas e personalizadas para se adaptar a diferentes estilos de jogo.
-                <br><br>
-                A classe Ladino é flexível e versátil, podendo ser um ladrão astuto, um espião habilidoso, um assassino silencioso ou até mesmo um trapaceiro charmoso. Sua capacidade de enfrentar desafios de maneira criativa e imprevisível os torna uma adição valiosa a qualquer grupo de aventureiros em uma campanha de D&D.
+            <div id="mais8" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D12</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Força</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Força & Constituição</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Armaduras leves e médias,
+                        escudos, armas simples e marciais</td></tr>
+                </table>
+            </div>
+        </div>
+        <div class="card">
+            <img src="mago.jpg" alt="">
+            <span class="NomeClasse">
+                <h2>Mago</h2>
+            </span>
+            <p>
+                Estudiosos arcanos que dominam a magia, os magos são capazes de lançar uma ampla variedade de magias. Eles podem aprender e preparar um grande número de magias para diferentes situações.
             </p>
+            <button class="saiba-mais" onclick="flex('mais9','mostra9')">
+                <h2 id="mostra9">Mostrar Mais ></h2>
+            </button>
+            <div id="mais9" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D12</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Força</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Força & Constituição</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Armaduras leves e médias,
+                        escudos, armas simples e marciais</td></tr>
+                </table>
+            </div>
+        </div>
+        <div class="card">
+            <img src="monge.png" alt="">
+            <span class="NomeClasse">
+                <h2>Monge</h2>
+            </span>
+            <p>
+                Monge é um guerreiro especializado em artes marciais, meditação e disciplina física e mental. Os monges são mestres da autodisciplina e do controle corporal, buscando aperfeiçoar seu corpo e mente por meio de treinamento rigoroso.
+            </p>
+            <button class="saiba-mais" onclick="flex('mais10','mostra10')">
+                <h2 id="mostra10">Mostrar Mais ></h2>
+            </button>
+            <div id="mais10" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D12</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Força</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Força & Constituição</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Armaduras leves e médias,
+                        escudos, armas simples e marciais</td></tr>
+                </table>
+            </div>
         </div>
         <div class="card">
             <img src="paladino.png" alt="">
@@ -37,21 +343,78 @@
                 <h2>Paladino</h2>
             </span>
             <p>
-                Na jogabilidade de Dungeons & Dragons (D&D), a classe Paladino é conhecida por sua devoção e comprometimento com uma causa nobre, geralmente associada a valores morais e éticos. Os paladinos são guerreiros sagrados que combinam habilidades de combate com poderes divinos.
+                O Paladino é um guerreiro sagrado, conhecido por sua devoção a uma causa nobre e seus poderes divinos. Os Paladinos são mestres em combate corpo a corpo, possuem habilidades de cura e são capazes de lançar magias divinas.
             </p>
-            <button class="saiba-mais" onclick="flex('mais2','mostra2')">
-                <h2 id="mostra2">Mostrar Mais ></h2>
+            <button class="saiba-mais" onclick="flex('mais11','mostra11')">
+                <h2 id="mostra11">Mostrar Mais ></h2>
             </button>
-            <p id="mais2" class="mais">
-                Os paladinos são conhecidos por sua força, resistência e habilidades de combate. Eles são proficientes no uso de armaduras pesadas e uma variedade de armas, o que lhes confere uma grande vantagem no campo de batalha. Além disso, os paladinos têm acesso a magias divinas que podem ser usadas para curar aliados, proteger-se e combater forças malignas.
-                <br><br>
-                Uma das características mais distintivas dos paladinos é o seu Juramento Sagrado. Essa é uma escolha importante que define a natureza e os princípios do personagem. O Juramento Sagrado pode estar relacionado a juramentos de lealdade, proteção dos inocentes, busca pela justiça, destruição do mal, entre outros. Cada Juramento Sagrado confere habilidades e magias únicas ao paladino, tornando-o especialista em sua causa.
-                <br><br>
-                Além de suas habilidades de combate e poderes divinos, os paladinos também são conhecidos por seu senso de moralidade e dever. Eles são frequentemente vistos como campeões da virtude e da retidão, dispostos a sacrificar-se pelos outros e lutar contra as forças do mal. Sua presença no grupo de aventureiros geralmente traz consigo uma aura de inspiração e proteção.
-                <br><br>
-                Os paladinos são personagens versáteis, capazes de desempenhar vários papéis, como tanques, curandeiros e líderes do grupo. Sua combinação de habilidades de combate, poderes divinos e devoção moral faz deles uma classe valiosa e influente no mundo de D&D.
-            </p>
+            <div id="mais11" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D12</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Força</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Força & Constituição</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Armaduras leves e médias,
+                        escudos, armas simples e marciais</td></tr>
+                </table>
+            </div>
         </div>
+        <div class="card">
+            <img src="patrulheiro.jpg" alt="">
+            <span class="NomeClasse">
+                <h2>Patrulheiro</h2>
+            </span>
+            <p>
+                Patrulheiro é um especialista em exploração, rastreamento e sobrevivência em ambientes selvagens. Os patrulheiros são habilidosos em lidar com ameaças da natureza e proteger áreas selvagens contra criaturas perigosas.
+            </p>
+            <button class="saiba-mais" onclick="flex('mais12','mostra12')">
+                <h2 id="mostra12">Mostrar Mais ></h2>
+            </button>
+            <div id="mais12" class="mais">
+                <table>
+                    <tr><th>Dados de vida</th></tr>
+                    <tr><td>D12</td></tr>
+                </table>
+                <table>
+                    <tr><th>Habilidade Primária</th></tr>
+                    <tr><td>Força</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proeficiências em Resistência</th></tr>
+                    <tr><td>Força & Constituição</td></tr>
+                </table>
+                <table>
+                    <tr><th>Proficiências em Armas
+                        e Armaduras</th></tr>
+                    <tr><td>Armaduras leves e médias,
+                        escudos, armas simples e marciais</td></tr>
+                </table>
+            </div>
+        </div>
+        <!-- <div class="card">
+            <img src="patrulheiro.jpg" alt="">
+            <span class="NomeClasse">
+                <h2>Patrulheiro</h2>
+            </span>
+            <p>
+                Patrulheiro é um especialista em exploração, rastreamento e sobrevivência em ambientes selvagens. Os patrulheiros são habilidosos em lidar com ameaças da natureza e proteger áreas selvagens contra criaturas perigosas.
+            </p>
+            <button class="saiba-mais" onclick="dado(10,'dadopatruleiro')">
+                <h2 id="mostra2">Rolar dado ></h2>
+            </button>
+            <p id="dadopatruleiro"></p>
+        </div> -->
+        
     </div>
     <script src="script.js"></script>
 </body>
