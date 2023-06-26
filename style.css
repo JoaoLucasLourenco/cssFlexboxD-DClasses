@@ -1,6 +1,5 @@
 *{
     font-family: sans-serif;
-    transition-duration: 0.6s;
 }
 body{
     background-color: #cd7f20;
@@ -24,10 +23,6 @@ header span{
     background-color: #faa72b;
     padding: 0 7px;
     color: #340100;
-    animation: rodando;
-    animation-timing-function: ease-in-out;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 /* content */
 .content{
@@ -38,6 +33,7 @@ header span{
     flex-wrap: wrap;
     gap: 30px;
 }
+/* card */
 .card{
     min-height: 700px;
     width: 350px;
@@ -68,9 +64,7 @@ header span{
     color: #340100;
     border-radius: 7px;
     user-select: none;
-    animation: nome;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
+    
 }
 .card p{
     color:#f9ebd8;
@@ -107,40 +101,57 @@ header span{
     border-radius: 10px;
     padding: 5px;
 }
-@keyframes rodando {
-    
-    0%{
-        text-shadow:15px 15px 30px #f9ebd8
-    }
-    25%{
-        text-shadow:15px -15px 30px #f9ebd8
-    }
-    50%{
-        text-shadow:-15px -15px 30px #f9ebd8
-    }
-    75%{
-        text-shadow:-15px 15px 30px #f9ebd8
-    }
-    100%{
-        text-shadow:15px 15px 30px #f9ebd8
-    }
+/* raças */
+.icone{
+    width: 250px;
+    max-height:310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #340100;
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
 }
-@keyframes nome {
-    
-    0%{
-        box-shadow:5px 5px 30px #cd7f20
-    }
-    25%{
-        box-shadow:5px -5px 30px #cd7f20
-    }
-    50%{
-        box-shadow:-5px -5px 30px #cd7f20
-    }
-    75%{
-        box-shadow:-5px 5px 30px #cd7f20
-    }
-    100%{
-        box-shadow:5px 5px 30px #cd7f20
+.icone img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin: 10px;
+    background-color: #cd7f20;
+}
+.nome_raca{
+    background-color: #faa72b;
+    padding: 10px 20px;
+    color: #340100;
+    border-radius: 7px;
+    user-select: none;
+}
+.desc_raca{
+    padding:10px;
+    margin: 10px;
+    position: relative;
+    top: -22rem;
+    left: 14rem;
+    display: none;
+}
+.desc_raca td{
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.desc_raca table{
+    color: #340100;
+    background-color: #faa72b;
+    border-radius: 35px 35px 35px 0;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #340100;
+}
+.icone:hover{
+    .desc_raca{
+        display: flex;
     }
 }
 
