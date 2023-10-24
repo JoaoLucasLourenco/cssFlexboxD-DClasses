@@ -1,5 +1,6 @@
 *{
     font-family: sans-serif;
+    transition-duration: 400ms;
 }
 body{
     background-color: #cd7f20;
@@ -77,13 +78,13 @@ header span{
     margin: 10px;
     border-radius: 7px;
     user-select: none;
-    
+    transition-duration: 400ms;
 }
 .saiba-mais:hover{
     cursor: pointer;
     transform: translateY(-5px);
     box-shadow: 0 5px 10px #340100;
-
+    transition-duration: 400ms;
 }
 .mais{
     display: none;
@@ -133,8 +134,6 @@ header span{
     padding:10px;
     margin: 10px;
     position: relative;
-    top: -22rem;
-    left: 14rem;
     display: none;
 }
 .desc_raca td{
@@ -145,7 +144,7 @@ header span{
 .desc_raca table{
     color: #340100;
     background-color: #faa72b;
-    border-radius: 35px 35px 35px 0;
+    border-radius: 35px;
     padding: 10px;
     box-shadow: 5px 5px 10px #340100;
 }
